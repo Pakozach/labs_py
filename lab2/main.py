@@ -310,7 +310,7 @@ if __name__ == '__main__':
     graph = generate_graph(5, 10)
     # graph = [[1, 3], [0, 2], [1, 3], [0, 2]]
     # graph = [[1, 3], [0, 2, 3], [1, 3], [1, 2, 0]]
-    #graph = graph_read_txt("d:/dbo/1.txt")
+    #graph = graph_read_txt("1.txt")
     if len(graph) == 0:
         print('Граф пустой или некорректен')
     else:
@@ -326,4 +326,4 @@ if __name__ == '__main__':
         graph_draw_hamiltonian_path(graph, 900, path)
         print('Цикл Гамильтона')
         print(path)
-        #graph_save_txt("d:/dbo/1.txt", graph)
+        #graph_save_txt("1.txt", graph)
